@@ -72,6 +72,7 @@ body {
 
 .hero__center h1 {
     color : #eee;
+    font-size : 8vmin;
 }
 
 .hero__center button {
@@ -85,14 +86,58 @@ body {
     font-size : 3vmin;
 }
 
-.section {
+.services {
     width : 100%;
     height : 400px;
     background : #eee;
-    
+    display : flex;
+}
 
+.services__container{
+    margin : auto;
+    display : flex;
+    width : 80%;
+    height : 300px;
+    background : transparent;
+    align-items : center;
+    justify-content : space-around;
+    flex-direction : column;
+}
+
+.services__title {
+    width : 100%;
+    height : 80px;
+    background : #eee;
+    display : flex;
+}
+
+.services__title h2{
+    margin : auto;
+}
+
+.services__icon--content {
+    width : 100%;
+    height : 200px;
+    background : #eee;
+}
+
+.services__icon--description {
+    display : flex;
+    width : 100%;
+    height : 80px;
+    background : transparent;
+    justify-content : center;
+    align-items : center;
+    text-align : center;
+    color : #999;
+}
+.services__icon--description p {
+    font-size : 3.5vmin;
 }
 
 
-
-
+.services__icon--icons{
+    width : 100%;
+    height : 120px;
+    background : blue;
+}
