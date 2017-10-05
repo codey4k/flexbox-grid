@@ -109,7 +109,9 @@ body {
     height : 80px;
     background : #eee;
     display : flex;
+    position : relative;
 }
+
 
 .services__title h2{
     margin : auto;
@@ -119,7 +121,9 @@ body {
     width : 100%;
     height : 200px;
     background : #eee;
+    position : relative;
 }
+
 
 .services__icon--description {
     display : flex;
@@ -139,5 +143,5 @@ body {
 .services__icon--icons{
     width : 100%;
     height : 120px;
-    background : blue;
+    background : rgba(120, 240, 161, 0.8);
 }
