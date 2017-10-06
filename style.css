@@ -112,9 +112,20 @@ body {
     position : relative;
 }
 
+/*.services__title::before {*/
+/*    content : "";*/
+/*    width : 100px;*/
+/*    height : 3px;*/
+/*    position : absolute;*/
+/*    bottom : 0;*/
+/*    left : 50%;*/
+/*    transform : translateX(-50px);*/
+/*    background : linear-gradient(to right,rgba(120, 240, 161, 0.8), rgba(29, 111, 163, 0.8) );*/
+/*}*/
 
 .services__title h2{
     margin : auto;
+    color : rgba(29, 111, 163, 0.8);
 }
 
 .services__icon--content {
@@ -136,12 +147,24 @@ body {
     color : #999;
 }
 .services__icon--description p {
-    font-size : 3.5vmin;
+    font-size : 3vmin;
 }
 
 
 .services__icon--icons{
     width : 100%;
     height : 120px;
-    background : rgba(120, 240, 161, 0.8);
+    background : linear-gradient(to right,rgba(120, 240, 161, 0.8), rgba(29, 111, 163, 0.8) );
 }
+
+/******** Spotlight section ********/
+.spotlight {
+    display : grid;
+    width : 100%;
+    height : 200px;
+    background : #555;
+}
+
+
+
+
