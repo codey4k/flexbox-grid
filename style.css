@@ -12,6 +12,11 @@ body {
     background : linear-gradient(to right,rgba(120, 240, 161, 0.8), rgba(29, 111, 163, 0.8) );
 }
 
+body::-webkit-scrollbar {
+    width : 0px;
+}
+
+
 .wrap {
     margin : 3em auto;
     width : 80%;
