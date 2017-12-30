@@ -16,6 +16,15 @@ body::-webkit-scrollbar {
     width : 0px;
 }
 
+#viewport {
+    position : absolute;
+    padding : 1em;
+    top : 0;
+    right : 0;
+    background : orange;
+    color : #fff;
+    z-index : 2000;
+}
 
 .wrap {
     margin : 3em auto;
@@ -43,6 +52,41 @@ body::-webkit-scrollbar {
     justify-content : space-between;
     align-items : center;
     
+}
+
+.menu__icon {
+    position : relative;
+    width : 30px;
+    height : 2px;
+    /*line-height : 1em;*/
+    /*outline : 1px solid red;*/
+    cursor : pointer;
+    background : #444;
+    box-shadow : 0 -7px 0 #444, 0 7px 0 #444;
+}
+
+.menu__list {
+    position : relative;
+    display : none;
+}
+
+.menu__item {
+    position : relative;
+    list-style : none;
+    padding : 1em;
+    display : block;
+}
+
+@media screen and (min-width: 600px){
+    .menu__icon {
+        display : none;
+    }
+    .menu__list {
+        display : inline-flex;
+    }
+    .menu__item {
+        
+    }
 }
 
 .fixed{

@@ -1,5 +1,12 @@
 document.addEventListener('DOMContentLoaded', ()=>{
-            
+    
+    
+    let viewport = document.getElementById('viewport')
+    window.addEventListener('resize', function(){
+        viewport.innerHTML = window.innerWidth + "px"
+    })
+    
+    // console.log(window.innerWidth)       
         
     window.addEventListener('scroll',()=>{
         const scroll = document.documentElement.scrollTop || document.body.scrollTop,
