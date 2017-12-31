@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     
     
     let viewport = document.getElementById('viewport')
+    viewport.innerHTML = window.innerWidth + "px"
     window.addEventListener('resize', function(){
         viewport.innerHTML = window.innerWidth + "px"
     })
