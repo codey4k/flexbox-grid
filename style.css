@@ -169,12 +169,18 @@ body::-webkit-scrollbar {
     display : grid;
     grid-gap : 5px;
     grid-template-rows : auto;
-    grid-template-columns : repeat(2,1fr);
+    grid-template-columns : 1fr;
 }
+@media screen and (min-width : 600px) {
+    .services__container {
+        grid-template-columns : repeat(2, 1fr);
+    }
+}
+
 
 .services__item{
     /*width : 200px;*/
-    height : 100px;
+    height : 150px;
     display : flex;
     align-items : center;
     justify-content : center;
