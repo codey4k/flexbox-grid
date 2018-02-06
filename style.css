@@ -1,6 +1,7 @@
 * {
     margin : 0;
     padding : 0;
+    outline : none;
     box-sizing : border-box;
     transition : all .6s;
 }
@@ -15,11 +16,15 @@ body {
 /*Reset*/
 img,
 div,
+header,
+footer,
 section {
     display : block;
 }
 
-li {
+li,
+ul,
+ol{
     list-style : none;
 }
 
@@ -79,6 +84,10 @@ body::-webkit-scrollbar {
     
 }
 
+.menu__logo {
+    cursor : pointer;
+}
+
 .menu__icon {
     position : relative;
     width : 30px;
@@ -100,6 +109,7 @@ body::-webkit-scrollbar {
     list-style : none;
     padding : 1em;
     display : block;
+    cursor : pointer;
 }
 
 @media screen and (min-width: 600px){
