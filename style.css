@@ -52,7 +52,7 @@ body::-webkit-scrollbar {
     display : grid;
     grid-template-rows : auto;
     grid-template-columns : repeat(2, 1fr);
-    grid-template-areas : "menu menu" "hero hero" "services services" "spotlight spotlight";
+    grid-template-areas : "menu menu" "hero hero" "services services" "spotlight spotlight" "footer footer";
 }
 @media screen and (min-width : 600px){
     .wrap {
@@ -242,3 +242,11 @@ body::-webkit-scrollbar {
 .spotlight__description {
     background : olive;
 }
+
+.footer {
+    grid-area : footer;
+    height : 100px;
+    background : #333;
+}
+
+.footer__container {}
