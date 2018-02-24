@@ -247,6 +247,18 @@ body::-webkit-scrollbar {
     grid-area : footer;
     height : 100px;
     background : #333;
+    display : flex;
 }
 
-.footer__container {}
+.footer__container {
+    margin : auto;
+    width : 80%;
+    height : 50%;
+    /*background : orange;*/
+    display : flex;
+}
+
+.copyright {
+    margin : auto;
+    color : #777;
+}
