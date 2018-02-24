@@ -1,3 +1,10 @@
+/*
+ * Author : CodeY4k
+ * Description : Landing page web design
+ */
+
+
+/*----------- Reset -----------*/
 * {
     margin : 0;
     padding : 0;
@@ -6,16 +13,10 @@
     transition : all .6s;
 }
 
-body {
-    font-family : 'Noto Sans', Helvetica;
-    width :100%;
-    height : 100%;
-    background : linear-gradient(to right,rgba(120, 240, 161, 0.8), rgba(29, 111, 163, 0.8) );
-}
-
-/*Reset*/
 img,
+nav,
 div,
+main,
 header,
 footer,
 section {
@@ -30,6 +31,24 @@ ol{
 
 a {
     text-decoration : none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    clear : both;
+}
+/* ------------------------------ */
+
+:root {
+    --gradient : linear-gradient( 135deg, #FAD7A1 10%, #E96D71 100%);
+    --gradientRGBA : linear-gradient( 135deg, rgba(250, 215, 161, .3) 10%, rgba(233, 109, 113, .3) 100%);
+}
+
+
+body {
+    font-family : 'Noto Sans', Helvetica;
+    width :100%;
+    height : 100%;
+    background : var(--gradient);
 }
 
 body::-webkit-scrollbar {
@@ -156,7 +175,7 @@ body::-webkit-scrollbar {
     margin : auto;
     width : 80%;
     height : auto;
-    background : red;
+    background : var(--gradientRGBA);
     max-width : 700px;
 }
 
@@ -240,7 +259,7 @@ body::-webkit-scrollbar {
 }
 
 .spotlight__description {
-    background : olive;
+    background : var(--gradient);
 }
 
 .footer {
