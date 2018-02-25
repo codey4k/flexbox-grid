@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', ()=>{
-    
+   
+   console.log('Autor: CodeY4k') 
     
     let viewport = document.getElementById('viewport')
     viewport.innerHTML = window.innerWidth + "px"

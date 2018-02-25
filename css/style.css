@@ -275,9 +275,26 @@ body::-webkit-scrollbar {
     height : 50%;
     /*background : orange;*/
     display : flex;
+    
+    justify-content : space-between;
+    align-items : center;
 }
 
 .copyright {
-    margin : auto;
+    /*margin : auto;*/
     color : #777;
+}
+
+.footer__social {
+    /*background : red;*/
+    display : inline-flex;
+}
+
+.footer__social-items {
+    --size : 1em;
+    margin : .4em;
+    margin-top : 0;
+    margin-bottom : 0;
+    width : var(--size);
+    height : var(--size);
 }
