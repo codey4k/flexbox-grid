@@ -43,6 +43,10 @@ h1,h2,h3,h4,h5,h6 {
     --gradientRGBA : linear-gradient( 135deg, rgba(250, 215, 161, .3) 10%, rgba(233, 109, 113, .3) 100%);
 }
 
+*::selection {
+    background : #555;
+    color : #eee;
+}
 
 body {
     font-family : 'Noto Sans', Helvetica;
