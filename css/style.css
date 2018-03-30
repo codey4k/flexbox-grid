@@ -8,6 +8,7 @@
 * {
     margin : 0;
     padding : 0;
+    border : none;
     outline : none;
     box-sizing : border-box;
     transition : all .6s;
@@ -172,7 +173,9 @@ body::-webkit-scrollbar {
     padding : 3.5em;
     padding-top : 4em;
     padding-bottom : 4em;
-    
+    background-image : url('../img/photo.jpeg');
+    background-size : cover;
+    background-repeat : no-repeat;
 }
 
 .hero__container {
