@@ -262,7 +262,9 @@ body::-webkit-scrollbar {
 }
 
 .spotlight__img {
-    background : orange;
+    background-image : url('../img/photo3.jpeg');
+    background-size : cover;
+    background-repeat : no-repeat;
 }
 
 .spotlight__description {
